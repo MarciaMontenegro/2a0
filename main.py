@@ -71,7 +71,7 @@ def Pregunta1():
   else:
     print("NUMERO INGRESADO NO VALIDO")
           
-s=10
+s=40
 def Pregunta2():
   H=int(input("Cuantos bits(16,32,64)?: "));
   for i in range(10):
