@@ -38,6 +38,13 @@
               
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
+  -------> Utilizamos s=40, ya que para certificar un numero primo es necesario repetir la prueba MILLER_RABIN para disminuir la probabilidad de un error. 
+ Seleccionamos este valor, de acuerdo con BRINCH HANSEN 92B.
+ 
+ Un numero pequeño hace menos comprobaciones, es por esto que se debe poner un numero alto, pero no lo suficiente para que sea absurdo comprobar tantas veces.
+ 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          
 2.- PREGUNTA 2: Implementar un programa que genere de manera aleatoria al menos 10 primos distintos de 16, 32 y 64 bits.
 
     Utilizamos las siguentes funciones:
@@ -53,15 +60,9 @@
             Utilizamos un for con 10 iteraciones las cuales actuan segun el numero de bits que ingresamos, utilizando la funcion RANDOMGEN_PRIMOS(b).
             
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
- 
-  -------> Utilizamos s=40, ya que para certificar un numero primo es necesario repetir la prueba MILLER_RABIN para disminuir la probabilidad de un error. 
- Seleccionamos este valor, de acuerdo con BRINCH HANSEN 92B.
- 
- Un numero pequeño hace menos comprobaciones, es por esto que se debe poner un numero alto, pero no lo suficiente para que sea absurdo comprobar tantas veces.
- 
- 
-          
+-------> Utilizamos s=40, debido a que al trabajar con numeros grandes por el numero de bits, nos parecio aceptable el tiempo de ejecucion aceptable , ademas de que se haga un correcto analisis y comprobacion de los numeros primos.
+ Ademas, no es muy grande la probabilidad de que falle.
+
       
       
       
