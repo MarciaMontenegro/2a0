@@ -45,9 +45,9 @@ def RANDOMGEN_PRIMOS(b):
     return n
 
 
-s=10
+
 def Pregunta1():
-  
+  s=40
   k=int(input("Cuantas cifras:(3,4,5)?: "))
   
   if k==3:
@@ -71,7 +71,7 @@ def Pregunta1():
   else:
     print("NUMERO INGRESADO NO VALIDO")
           
-
+s=10
 def Pregunta2():
   H=int(input("Cuantos bits(16,32,64)?: "));
   for i in range(10):
