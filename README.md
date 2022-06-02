@@ -10,12 +10,19 @@
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 1.- PREGUNTA 1: Generar todos los primos de 3, 4 y 5 cifras.
+
     Utilizamos las siguentes funciones:
+    
       -EXPMOD(a,x,n):
+      
           Aplicamos exponenciacion modular.
+          
       -ES_COMPUESTO(a, n, t, u):
+      
           Determinamos si es un numero compuesto.
+          
       -MILLER_RABIN(n,s):
+      
           Determinamos si es un numero compuesto o pseudoprimo. 
   ---> Para generar los numeros de :
               3 cifras ---> Utilizamos un for con parametros que utilice por cada iteracion MILLER_RABIN; desde:100 - hasta:1000
@@ -50,4 +57,3 @@ distintos de 16, 32 y 64 bits.
       
     
     
-    Z
